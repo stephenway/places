@@ -1,0 +1,231 @@
+@media only screen and (max-device-width:480px) {
+	body {
+		-webkit-text-stroke: 0 black;
+	}
+}
+
+@font-face {
+  font-family: DIN;
+  src: url('/_files/DIN-Medium.otf') format("opentype");
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-shadow: #fefde9 0 1px 0;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEFFEB), to(#FFFFFF)) no-repeat;
+	min-height: 400px;
+	font: 100% DIN, "Lucida Grande", Arial, Helvetica, Geneva, sans-serif;
+	border-top: 8px solid #861112;
+	-webkit-font-smoothing: antialiased;
+}
+
+div.page_margins {
+	margin: 0 auto;
+	width: 920px;
+	text-align: left;
+	display: none;
+}
+
+#content {
+	margin-top: 60px;
+	 -webkit-perspective: 800;
+}
+
+h1 {
+	color: #5f5951;
+	font-size: 200%;
+	margin-left: 52px;
+	text-shadow: #fffeff 0 2px 0;
+	text-transform: uppercase;
+}
+
+h1#finished {
+
+}
+
+ul#extra {
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+h2 {
+	display: inline;
+	position: relative;
+	left: -345px;
+	bottom: 71px;
+	text-transform: lowercase;
+	float: right;
+	color: #861112;
+}
+
+p {
+	-webkit-transform: scale(1) scaleX(1) skewX(1);
+	-webkit-transition-duration: 250ms;
+	-webkit-user-select: none;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 1px 1px #777 !important;
+	min-width: 270px;
+	opacity: 0.5;
+	float: left;
+	background-color: #861112;
+	color: #fffeff;
+	text-shadow: #440404 0 1px 1px;
+	clear: left;
+	display: inline-block;
+	position: relative;
+	padding: 5px 5px 5px 9px;
+	font-size: 80%;
+	margin-left: 53px;
+}
+
+p:hover {
+	opacity: 1;
+	-webkit-transform: scale(1) scaleX(0.99);
+	-webkit-transition-duration: 250ms;
+	-webkit-user-select: none;
+	width: 650px;
+}
+
+p a {
+	-webkit-transform: scale(1);
+	-webkit-transition-duration: 250ms;
+	-webkit-user-select: none;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color: #861112;
+	text-decoration: none;
+	background-color: #fcafab;
+	text-shadow: #fff 0 0 1px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+p a:hover {
+	-webkit-transform: scale(1);
+	-webkit-transition-duration: 250ms;
+	-webkit-user-select: none;
+	background-color: #fff;
+	color: #5f5951;
+}
+
+.tweet:hover {
+	color: #3cf;
+	background-color: #fffeff;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+ul {
+	list-style-type: none;
+	position: relative;
+	margin-left: 1px;
+	min-height: 140px;
+}
+
+li {
+	-webkit-transform: scale(0.9);
+	-webkit-transition-duration: 250ms;
+	-webkit-user-select: none;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	opacity: 0.5;
+	padding-bottom: 21px;
+}
+
+li:hover {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-webkit-transition-duration: 250ms;
+	-webkit-user-select: none;
+}
+#content ul#extra li img {
+	width: 80px;
+	height: 60px;
+}
+#content ul li img {
+	-webkit-transform: rotate(0deg);
+	-webkit-transition-duration: 250ms;
+	-webkit-user-select: none;
+	-webkit-box-shadow: 0 1px 2px #555;
+	position: relative !important;
+	border: 6px solid #fff !important;
+	border-bottom-width: 20px !important;
+	background-color: #5f5951 !important;
+	background:  -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5f5951), to(#7c7b71)) no-repeat !important;
+	margin-bottom: 15px !important;
+	padding: 2px !important;
+	margin: 0 !important;
+	bottom: 0 !important;
+	width: 100px;
+	height: 75px;
+}
+
+#content ul li img:hover {
+	-webkit-transition-duration: 250ms;
+	-webkit-user-select: none;
+}
+
+a.bevel {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: 0 1px 2px #555;
+	color: #7c7b71;
+	text-decoration: none;
+	background-color: #d8d8c7;
+	padding: 5px 22px 7px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebead8), to(#cbcaba)) no-repeat;
+	border-bottom: 1px solid #eeeddb;
+	border-top: 1px solid #dcdbca;
+	bottom: 12px;
+	position: relative;
+	margin: 15px 5px;
+}
+
+a.bevel:hover {
+	-webkit-box-shadow: 0 1px 2px #555;
+	background-color: #ebead8;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAF9E6), to(#cbcaba)) no-repeat;
+	border-bottom: 1px solid #ebead8;
+	border-top: 1px solid #deddcc;
+	cursor: pointer;
+}
+
+#_files {
+	font-style: italic;
+	font-weight: bold;
+	display: none;
+}
+
+#backlink {
+	display: none !important;
+	visibility: none !important;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
