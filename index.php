@@ -46,7 +46,7 @@
 			?>
 			</ul>
 			<div id="footer">
-			<p>Send an <a href="mailto: info@domain.tld">email</a> or follow us on <a	 class="tweet ex" href="http://www.twitter.com/username">twitter</a>.</p>
+			<p>Send an <a href="mailto: info@domain.tld">email</a> or follow us on <a class="tweet ex" href="http://www.twitter.com/username">twitter</a>.</p>
 			</div>
 		</div>
 		</div>
